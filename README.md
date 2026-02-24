@@ -14,6 +14,7 @@ Calculate the polynomial trend values using least square method
 
 End the program
 ### PROGRAM:
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -71,6 +72,7 @@ resampled_data['Linear Trend'].plot(kind='line',color='black',linestyle='--')
 
 resampled_data['Turnover (Lacs)'].plot(kind='line',color='blue',marker='o')
 resampled_data['Polynomial Trend'].plot(kind='line',color='black',marker='o')
+```
 
 ### OUTPUT
 A - LINEAR TREND ESTIMATION
